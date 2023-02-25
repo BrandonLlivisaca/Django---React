@@ -1,0 +1,8 @@
+1. Creamos un entorno virtual
+   python -m virtualenv env
+2. Ejecutamos el entorno
+   .\env\Scripts\activate
+3. Instalamos Djando
+   pip install django==3.2.16 --user
+3. Creamos proyecto DJANGO
+   django-admin startproject core .
